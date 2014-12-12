@@ -11,9 +11,9 @@ For this example, we used Boot2Docker to run the Docker daemon for us.
 1. Start Boot2Docker
 2. ```boot2docker ssh``` or run docker commands locally
 3. Use KIWI to build an OpenSuse 11.3 Docker image with ```docker run --privileged -tid opensuse/kiwi```
-5. ```docket attach <id>```
-4. ```zypper --non-interactive install git```
-5. ```git clone https://github.com/openSUSE/docker-containers```
+5. ```docker attach <id>```
+4. (optional) ```zypper --non-interactive install git```
+5. (optional) There is a repo here for version 13+. ```git clone https://github.com/openSUSE/docker-containers```
 
 Associate Zypper with the proper 12.3 repository.
 
